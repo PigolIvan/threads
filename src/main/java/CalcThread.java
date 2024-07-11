@@ -20,6 +20,7 @@ public class CalcThread extends Thread {
         System.out.println("Сума: " + sum);
         System.out.println("Вибрані числа: " + Arrays.toString(randomArray));
         writer.write(String.valueOf(sum));
+        writer.newLine();
         writer.close();
     } catch(
     IOException e) {throw new RuntimeException(e);}
