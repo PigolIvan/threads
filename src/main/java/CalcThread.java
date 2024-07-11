@@ -3,7 +3,6 @@ import java.nio.file.*;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.IntStream;
-
 public class CalcThread extends Thread {
     public void run() {
     try {
